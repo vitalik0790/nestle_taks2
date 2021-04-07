@@ -13,77 +13,79 @@
 
 <body>
     <main class="main">
-        <form action="" class="main__form">
-            <h1 class="main__form__title">Sign Up to get more Updates</h1>
+        <form action="" class="form">
+            <h1 class="form__title">Sign Up to get more Updates</h1>
 
-            <div class="main__form__contact-info-container">
-                <h2 class="m-f-c__title">Contact information</h2>
+            <div class="form__contact-info-container">
+                <h2 class="contact-info__title">Contact information</h2>
 
-                <div class="m-f-c__items-container">
-                    <div class="m-f-c_item">
-                        <div class="m-f-c_item-title">Full name <span>*</span></div>
-                        <input type="text" class="m-f-c_item-input" placeholder="Your full name">
+                <div class="contact-info__items-container">
+                    <div class="contact-info__item">
+                        <div class="contact-info__item-title">Full name <span>*</span></div>
+                        <input type="text" class="contact-info__item-input" placeholder="Your full name">
                     </div>
-                    <div class="m-f-c_item">
-                        <div class="m-f-c_item-title">E-mail <span>*</span></div>
-                        <input type="text" class="m-f-c_item-input" placeholder="Your e-mail">
+                    <div class="contact-info__item">
+                        <div class="contact-info__item-title">E-mail <span>*</span></div>
+                        <input type="text" class="contact-info__item-input" placeholder="Your e-mail">
                     </div>
-                    <div class="m-f-c_item">
-                        <div class="m-f-c_item-title">Phone number <span>*</span></div>
-                        <input type="tel" pattern="[(][0-9]{3}[)] [0-9]{3} - [0-9]{4}" class="m-f-c_item-input"
+                    <div class="contact-info__item">
+                        <div class="contact-info__item-title">Phone number <span>*</span></div>
+                        <input type="tel" pattern="[(][0-9]{3}[)] [0-9]{3} - [0-9]{4}" class="contact-info__item-input"
                             placeholder="(_ _ _)  _ _ _ - _ _ _ _">
-                        <sub class="m-f-c_error-title">Please enter correct datas</sub>
+                        <sub class="contact-info__error-title">Please enter correct datas</sub>
                     </div>
                 </div>
 
             </div>
 
-            <div class="main__form__delivery-info-container">
-                <h2 class="m-f-d__title">Delivery information</h2>
+            <div class="form__delivery-info-container">
+                <h2 class="delivery-info__title">Delivery information</h2>
 
-                <div class="m-f-d__items-container">
-                    <div class="m-f-d_item">
-                        <div class="m-f-d_item-title">Country <span>*</span></div>
-                        <input type="text" class="m-f-d_item-input" placeholder="Your country">
+                <div class="delivery-info__items-container">
+                    <div class="delivery-info__item">
+                        <div class="delivery-info__item-title">Country <span>*</span></div>
+                        <input type="text" class="delivery-info__item-input" placeholder="Your country">
                     </div>
-                    <div class="m-f-d_item-row">
-                        <div class="m-f-d_item">
-                            <div class="m-f-d_item-title">City <span>*</span></div>
-                            <input type="text" class="m-f-d_item-input" placeholder="Your city">
+                    <div class="delivery-info__item-row">
+                        <div class="delivery-info__item">
+                            <div class="delivery-info__item-title">City <span>*</span></div>
+                            <input type="text" class="delivery-info__item-input" placeholder="Your city">
                         </div>
-                        <div class="m-f-d_item zip-code">
-                            <div class="m-f-d_item-title">Zip code <span>*</span></div>
-                            <input type="tel" pattern="[0-9]{3} - [0-9]{3}" class="m-f-d_item-input"
+                        <div class="delivery-info__item zip-code">
+                            <div class="delivery-info__item-title">Zip code <span>*</span></div>
+                            <input type="tel" pattern="[0-9]{3} - [0-9]{3}" class="delivery-info__item-input"
                                 placeholder="_ _ _ - _ _ _ ">
-                            <sub class="m-f-d_error-title">Please enter correct datas</sub>
+                            <sub class="delivery-info__error-title">Please enter correct datas</sub>
                         </div>
                     </div>
                 </div>
 
             </div>
 
-            <div class="main__form__preferences-confirmation">
-                <h2 class="m-f-p_title">Preferences confirmation</h2>
-                <div class="m-f-p_item">
-                    <input type="checkbox" name="" id="marketing-offers" class="m-f-p_item-input" style="display: none">
-                    <label for="marketing-offers" class="m-f-p_item-label"><span></span><span></span></label>
+            <div class="form__preferences-confirmation">
+                <h2 class="preferences__title">Preferences confirmation</h2>
+                <div class="preferences__item">
+                    <input type="checkbox" name="" id="marketing-offers" class="preferences__item-input"
+                        style="display: none">
+                    <label for="marketing-offers" class="preferences__item-label"><span></span><span></span></label>
                     <span class="m-f-p_item-description">I want to recieve news, advice and marketing offers from
                         Nestle</span>
                 </div>
-                <div class="m-f-p_item">
-                    <input type="checkbox" name="" id="price-changing" class="m-f-p_item-input" style="display: none">
-                    <label for="price-changing" class="m-f-p_item-label"><span></span><span></span></label>
+                <div class="preferences__item">
+                    <input type="checkbox" name="" id="price-changing" class="preferences__item-input"
+                        style="display: none">
+                    <label for="price-changing" class="preferences__item-label"><span></span><span></span></label>
                     <span class="m-f-p_item-description">I want to recieve newsletter about price changing</span>
                 </div>
-                <div class="m-f-p_item">
-                    <input type="checkbox" name="" id="my-data" class="m-f-p_item-input" style="display: none">
-                    <label for="my-data" class="m-f-p_item-label"><span></span><span></span></label>
+                <div class="preferences__item">
+                    <input type="checkbox" name="" id="my-data" class="preferences__item-input" style="display: none">
+                    <label for="my-data" class="preferences__item-label"><span></span><span></span></label>
                     <span class="m-f-p_item-description">I allow to use my data to personalize content and marketing
                         activities</span>
                 </div>
             </div>
 
-            <button type="submit" class="main__form__submit-btn">Create a profile</button>
+            <button type="submit" class="form__submit-btn">Create a profile</button>
         </form>
     </main>
 
