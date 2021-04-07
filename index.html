@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nestle test task. Part 2</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main">
+        <form action="" class="main__form">
+            <h1 class="main__form__title">Sign Up to get more Updates</h2>
+
+            <div class="main__form__contact-info-container">
+                <h2 class="m-f-c__title">Contact information</h2>
+
+                <div class="m-f-c__items-container">
+                    <div class="m-f-c_item">
+                        <div class="m-f-c_item-title">Full name <span>*</span></div>
+                        <input type="text" class="m-f-c_item-input" placeholder="Your full name">
+                    </div>
+                    <div class="m-f-c_item">
+                        <div class="m-f-c_item-title">E-mail <span>*</span></div>
+                        <input type="text" class="m-f-c_item-input" placeholder="Your e-mail">
+                    </div>
+                    <div class="m-f-c_item">
+                        <div class="m-f-c_item-title">Phone number <span>*</span></div>
+                        <input type="tel" pattern="[(][0-9]{3}[)] [0-9]{3} - [0-9]{4}" class="m-f-c_item-input" placeholder="(_ _ _)  _ _ _ - _ _ _ _">
+                        <sub class="m-f-c_error-title">Please enter correct datas</sub>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main__form__delivery-info-container">
+                <h2 class="m-f-d__title">Delivery information</h2>
+
+                <div class="m-f-d__items-container">
+                    <div class="m-f-d_item">
+                        <div class="m-f-d_item-title">Country <span>*</span></div>
+                        <input type="text" class="m-f-d_item-input" placeholder="Your country">
+                    </div>
+                    <div class="m-f-d_item-row">
+                        <div class="m-f-d_item">
+                            <div class="m-f-d_item-title">City <span>*</span></div>
+                            <input type="text" class="m-f-d_item-input" placeholder="Your city">
+                        </div>
+                        <div class="m-f-d_item zip-code">
+                            <div class="m-f-d_item-title">Zip code <span>*</span></div>
+                            <input type="tel" pattern="[0-9]{3} - [0-9]{3}" class="m-f-d_item-input" placeholder="_ _ _ - _ _ _ ">
+                            <sub class="m-f-d_error-title">Please enter correct datas</sub>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main__form__preferences-confirmation">
+                <h2 class="m-f-p_title">Preferences confirmation</h2>
+                <div class="m-f-p_item">
+                    <input type="checkbox" name="" id="marketing-offers" class="m-f-p_item-input" style="display: none">
+                    <label for="marketing-offers" class="m-f-p_item-label"><span></span><span></span></label>
+                    <span class="m-f-p_item-description">I want to recieve news, advice and marketing offers from Nestle</span>
+                </div>
+                <div class="m-f-p_item">
+                    <input type="checkbox" name="" id="price-changing" class="m-f-p_item-input" style="display: none">
+                    <label for="price-changing" class="m-f-p_item-label"><span></span><span></span></label>
+                    <span class="m-f-p_item-description">I want to recieve newsletter about price changing</span>
+                </div>
+                <div class="m-f-p_item">
+                    <input type="checkbox" name="" id="my-data" class="m-f-p_item-input" style="display: none">
+                    <label for="my-data" class="m-f-p_item-label"><span></span><span></span></label>
+                    <span class="m-f-p_item-description">I allow to use my data to personalize content and marketing activities</span>
+                </div>
+            </div>
+
+            <button type="submit" class="main__form__submit-btn">Create a profile</button>
+        </form>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
