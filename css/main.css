@@ -16,6 +16,7 @@
 }
 
 .main .main__form {
+  padding-top: 50px;
   display: flex;
   width: 60%;
   justify-content: center;
